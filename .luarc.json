@@ -4,7 +4,6 @@
     "workspace.checkThirdParty": "Disable",
     "workspace.library": [
         "./lua",
-        "./tests",
         "$HOME/.luarocks/share/lua/5.1",
         "$VIMRUNTIME/lua"
     ]
