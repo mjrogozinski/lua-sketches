@@ -1,7 +1,8 @@
 return {
   _all = {
     coverage = false,
-    lpath = 'lua/?.lua;lua/?/init.lua;spec/?.lua',
+    lpath = 'lua/?.lua;lua/?/init.lua;spec/?.lua;',
+    lua = 'nvim -l',
   },
   default = {
     verbose = true,
