@@ -3,13 +3,11 @@ local eq = assert.equals
 
 describe('my_module', function()
   it('adds numbers correctly', function()
-    local result = my_module.add(2, 3)
-    eq(result, 5)
+    eq(my_module.add(2, 3), 5)
   end)
 
   it('handles zero', function()
-    local result = my_module.add(0, 0)
-    eq(result, 0)
+    eq(my_module.add(0, 0), 0)
   end)
 
   it('just works', function()
